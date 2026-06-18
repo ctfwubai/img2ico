@@ -113,20 +113,3 @@ dotnet publish -c Release -r win-x64 -o publish_standalone \
   -p:EnableCompressionInSingleFile=true
 ```
 
-## 📤 发布 Release
-
-```bash
-# 1. 推送代码
-git remote add origin https://github.com/ctfwubai/img2ico.git
-git push -u origin master
-
-# 2. 创建 Tag 并推送
-git tag v2.0.0
-git push origin v2.0.0
-
-# 3. 在 GitHub 网页上：
-#    进入 Releases → Draft a new Release
-#    Tag: v2.0.0
-#    上传 dist/Img2Ico.exe 和 dist/Img2Ico_standalone.exe
-#    发布即可
-```
