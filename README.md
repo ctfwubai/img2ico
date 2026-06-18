@@ -113,3 +113,13 @@ dotnet publish -c Release -r win-x64 -o publish_standalone \
   -p:EnableCompressionInSingleFile=true
 ```
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=ctfwubai%2Fimg2ico&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ctfwubai/img2ico&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ctfwubai/img2ico&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ctfwubai/img2ico&type=date&legend=top-left" />
+ </picture>
+</a>
+
