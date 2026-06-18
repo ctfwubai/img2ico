@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
+    <ProductName>图片转 ICO 图标工具</ProductName>
+    <CompanyName>CTF_无白</CompanyName>
+    <Authors>CTF_无白</Authors>
+    <Description>PNG/JPG/BMP/GIF/TIFF/WebP 转 Windows ICO 图标工具 — 作者 CTF_无白</Description>
+    <Copyright>© 2026 CTF_无白 | github.com/ctfwubai</Copyright>
+
+    <!-- 默认 publish: 框架依赖单文件 (~176KB, 需 .NET 10 Runtime)                     -->
+    <!-- 完全独立版:  加 -p:SelfContained=true -p:PublishTrimmed=true  (~25MB)           -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <IncludeNativeLibrariesForSelfExtract>false</IncludeNativeLibrariesForSelfExtract>
+    <IncludeAllContentForSelfExtract>false</IncludeAllContentForSelfExtract>
+    <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+    <_SuppressWinFormsTrimError>true</_SuppressWinFormsTrimError>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="System.Windows.Forms" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.DotSettings.user
+
+# publish output (keep dist/ only)
+publish/
+publish_*/
+!dist/
+
+# Python leftovers
+__pycache__/
+*.pyc
+*.spec
+build/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
